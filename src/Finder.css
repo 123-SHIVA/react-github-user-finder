@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    display: inline;
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid white;
+    color: white;
+    margin-left: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+}
+
+.gitfinder{
+
+    /* display: flex; */
+    width: 40%;
+    height: 500px;
+    background-color: rgb(37, 7, 65);
+    margin: 50px;
+    padding:10px;
+    text-align: center;
+
+}
+#myForm{
+    display: flex;
+    gap: 0px;
+}
+
+#search{
+
+    width: 50%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.btn{
+
+    width: 80%;
+    height: 50px;
+    background-color:  rgb(37, 7, 65);
+    color:white;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+div img{
+    /* display: inline; */
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.gitData{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#name{
+    font-size: 20px;
+}
+
+.edit{
+    background-color: rgb(56, 56, 157);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
